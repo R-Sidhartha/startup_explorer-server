@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/R-Sidhartha/StartUp-Explorer-server.git"
+    "url": "git+https://github.com/R-Sidhartha/startup_explorer-server.git"
   },
   "author": "Sidharth",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/R-Sidhartha/StartUp-Explorer-server/issues"
+    "url": "https:https://github.com/R-Sidhartha/startup_explorer-server.git"
   },
-  "homepage": "https://github.com/R-Sidhartha/StartUp-Explorer-server#readme",
+  "homepage": "https:https://github.com/R-Sidhartha/startup_explorer-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
