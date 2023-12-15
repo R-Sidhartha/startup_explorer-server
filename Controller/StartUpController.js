@@ -3,7 +3,7 @@ const StartUp = require("../models/StartUpSchema");
 const StartUpController = {
   getAllStartUps: async (req, res) => {
     try {
-      const startUps = await StartUp.find().sort({ SNo: -1 });;
+      const startUps = await StartUp.find();
       res.json(startUps);
     } catch (error) {
       res.status(500).json({ message: error.message });
