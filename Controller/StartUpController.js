@@ -15,14 +15,10 @@ const StartUpController = {
       const highestSNoDocument = await StartUp.findOne({}, {}, { sort: { SNo: -1 } });
       // Calculate the next serial number
       const nextSNo = highestSNoDocument ? highestSNoDocument.SNo + 1 : 1;
-      // Assign the calculated serial number to the new startup data
       const startUpData = req.body;
       startUpData.SNo = nextSNo;  
-      // Create the startup record in the database
       const startUp = await StartUp.create({ ...startUpData });
-  
-      // Return the created startup data as a response
-      res.json(startUp);
+        res.json(startUp);
     } catch (error) {
       res.status(500).json({ message: error.message });
     }
