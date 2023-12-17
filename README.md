@@ -1,4 +1,4 @@
-Startup Explorer Server-
+# Startup Explorer Server-
 
 Welcome to Startup Explorer Server, a Node.js application for managing startup details. 
 
@@ -6,22 +6,22 @@ This server utilizes Express for routing, Mongoose for MongoDB interaction, and 
 
 The CRUD operations for startups are organized in the 'routes' folder, with corresponding controllers in 'controllers'.
 
-Features-
+## Features-
 
-Schema: Implemented a robust schema for startup details, including name, investment type, location, etc.
+**Schema**: Implemented a robust schema for startup details, including name, investment type, location, etc.
 
-CRUD Routes: Set up Create, Read, Update, and Delete routes for startups.
+**CRUD Routes**: Set up Create, Read, Update, and Delete routes for startups.
 
-Controller Logic: Relevant controllers in the 'controllers' folder manage startup operations.
+**Controller Logic**: Relevant controllers in the 'controllers' folder manage startup operations.
 
-Libraries Used: Mongoose, Express, Express-validator, Dotenv, Cors.
+**Libraries Used**: Mongoose, Express, Express-validator, Dotenv, Cors.
 
-Environment Variables: Utilized Dotenv for secure storage of environment variables.
+**Environment Variables**: Utilized Dotenv for secure storage of environment variables.
 
-Cross-Origin: Handled Cross-Origin Resource Sharing (CORS) to resolve blocking issues.
+**Cross-Origin**: Handled Cross-Origin Resource Sharing (CORS) to resolve blocking issues.
 
 
-Getting Started:
+## Getting Started:
 
 Clone the repository.
 
